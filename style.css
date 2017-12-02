@@ -1,39 +1,48 @@
-img {
-	width: 100px;
-	/*display:inline-block;*/
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
 }
-div	{
-	display: inline-block;
+#wrapper{
+ width: 980px;
+ height: 600px;
+ background-color: silver;
+ margin: 0px auto;
+ padding: 20px;
 }
-#wrapper {
-	width: 800px;
-    background-color: #d3d1ad;
-
+#header{
+ height: 150px;
+ background-color: green;
 }
-#main {
-	margin: 0 auto;
-    width: 710px;
-    height: 580px; 
-    display: block;
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+ margin: 20px 0px;
+ display: inline-flex;
 }
-#header {
-	width: 520px;
-	margin: 30px auto;
-    display: block;
-    padding: 0 auto;
+#main_content{
+ height: 400px;
+ width: 730px;
+ background-color: red;
+ float: right;
+ padding: 10px;
+ margin: 20px 4px;
+ display: inline-block;
 }
-h1{
-	display:inline-block;
+#box1, #box2, #box3{
+ height: 200px;
+ width: 210px;
+ margin: 5px 10px 5px 5px;
+ float: top;
+ display: inline-block;
+ background-color: yellow;
 }
-#blue {
-	background-color: #82b3ed;
-	padding: 15px 15px 13px 15px;
-	border: 3px solid black;
-	margin: 1px;
-}
-#red {
-	background-color: #f3696f;
-	padding: 15px 15px 12px 15px;
-	border: 3px solid black;
-	margin: 1px;
+#advertisement{
+ height: 120px;
+ width: 670px;
+ background-color: purple;
+ margin: 20px 5px 5px 5px;
+ float: bottom;
+ display: inline-block;
 }
