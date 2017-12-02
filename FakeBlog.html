@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My First Blog</title>
+    <meta name="description" content="This is a fake blog about Aria Chung,
+    a 2nd generation Korean-American research scientist who loves science, music,
+    food, makeup, traveling and coding">
+    <style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddd;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Welcome to my Blog!</h1>
+      <img src="totoro_rain.gif" alt="Totoro in the rain" width="300" height="300"><br>
+      <a href="https://www.linkedin.com/in/youngmee-sul-33aa2b144">Visit my LinkedIn!</a>
+    </div>
+    <div id="main_content">
+      <h2>Little Bit About Me...</h2>
+        <p>Suspendisse potenti. Cras sed blandit lorem. Curabitur hendrerit,
+          dolor in pellentesque malesuada, purus eros congue est, vel vulputate
+          erat nisi eget lorem. Aenean tempus sit amet sem in laoreet. Vestibulum
+          et tincidunt justo. Sed porttitor mi at pellentesque elementum. Cras
+          scelerisque fringilla vehicula. Sed efficitur tincidunt faucibus.
+          Phasellus ac tortor quis ante accumsan eleifend. Proin lacinia, mi vel
+          tempus rutrum, magna nisl aliquet nunc, quis ultrices erat sapien ac risus.
+          Vestibulum viverra bibendum libero at pulvinar. Pellentesque venenatis
+          arcu ac lacus eleifend ullamcorper. Fusce imperdiet, felis eget semper
+          pretium, nunc metus consectetur tortor, at dapibus mi leo vel enim.
+          Mauris scelerisque nec quam sit amet accumsan. Etiam maximus scelerisque
+          ex, eget efficitur mi rutrum rhoncus. Integer ut nunc eget justo
+          ultrices malesuada at a turpis.</p>
+
+      <h2>Favorite foods:</h2>
+        <ul>
+          <li>Kimchee Fried Rice</li>
+          <li>Ramen</li>
+          <li>Poke</li>
+          <li>Hotpot</li>
+        </ul>
+    </div>
+    <div id="personal_info_table">
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Birthday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aria</td>
+            <td>Chung</td>
+            <td>ymee012@gmail.com</td>
+            <td>07/30/1985</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="fake_survey">
+      <h3>Please Take this short survey...</h3>
+      <form action="process.php" method="post">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="yes">Yes, please send me lots of emails</label>
+        <input type="radio" id="yes" name="send" value="yes">
+        <label for="no">No, please do not send me any emails</label>
+        <input type="radio" id="no" name="send" value="no"><br>
+
+        <p>How did you hear about us?</p>
+        <label for="facebook">Facebook</label>
+        <input type="checkbox" id="facebook" name="where" value="facebook"><br>
+
+        <label for="instagram">Instagram</label>
+        <input type="checkbox" id="instagram" name="where" value="instagram"><br>
+
+        <label for="linkedin">LinkedIn</label>
+        <input type="checkbox" id="linkedin" name="where" value="linkedin"><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
