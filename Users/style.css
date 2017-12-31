@@ -1,0 +1,25 @@
+table {
+    border: 1px solid black;
+    width: 420px;
+}
+
+td {
+    margin-right: 20px;
+}
+
+h1 {
+    border-bottom: 3px solid black;
+    width: 420px;
+}
+
+form {
+    width: 30%;
+    margin-left: 40px; 
+}
+
+input {
+    display: inline-block;
+    text-align: justify;
+    width: 30%;
+    margin: 3px;
+}
