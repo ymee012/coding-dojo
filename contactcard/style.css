@@ -1,0 +1,45 @@
+#back {
+    display: none;
+}
+input, textarea {
+	display: block;
+}
+
+#left, #right {
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+}
+
+#card {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	border: 2px solid rgb(51, 10, 51);
+    margin: 5px 0;
+}
+form {
+    width: 300px;
+    display: inline-block;
+}
+#first, #last {
+    width: 90px;
+    border: 2px solid rgb(51, 10, 51);
+    margin: 10px 3px;
+    display: inline-block;
+}
+#last {
+    margin-bottom: 30px;
+}
+textarea {
+    border: 2px solid rgb(51, 10, 51); 
+    height: 60px;
+    width: 170px
+}
+#desc {
+    margin: 10px 0;
+}
+button {
+    border: 2px solid rgb(51, 10, 51);
+    box-shadow: 1px 1px 1px black;
+}

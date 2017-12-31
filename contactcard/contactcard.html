@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Card, advanced jQuery assignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("button").click(function(){
+                var first = $("#first").val();
+                var last = $("#last").val();
+                var desc = $("textarea").val();
+                $("#right").append("<div id='card'><p>" + first + " " + last+ "<h5>Click for description!</h5></p><p id='back'>" + desc +"</p></div>");
+                $("#first").val("");
+                $("#last").val("");
+                $("#desc").val("");
+                return false;
+            });
+            $(document).on('click', '#card', function(){
+                $(this).children().toggle();
+            });
+        }); 
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="left">
+            <form>
+                <label>First Name:</label>
+                <input type ="text" name="first" id="first"><br>
+                <label>Last Name:</label>
+                <input type ="text" name="last" id="last"><br>
+                <label>Description:</label>
+                <textarea id="desc"></textarea><br>
+                <button>Add User</button>
+            </form>
+        </div>
+        <div id="right">
+        </div>
+    </div>
+</body>
+</html>
